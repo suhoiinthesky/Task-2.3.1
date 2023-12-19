@@ -7,6 +7,20 @@ import javax.servlet.FilterRegistration;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
+
+/**
+ * Тут я совершил некоторую ошибку
+ * а именно - объеденил конфиг вэба
+ * и дата сорса тем самым нарушив
+ * принцип SOLID
+ * не знаю на сколько это критично,
+ * но думаю вы мне скажите
+ * есть ли смысл переделывать и
+ * разделить их в отдельные конфиги.
+*/
+
+
+
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 
